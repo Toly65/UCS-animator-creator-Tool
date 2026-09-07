@@ -6,7 +6,7 @@ Generates the Animator layers a UdonCombatSystem gun needs (slide tracking, fire
 
 ## Dependency
 
-[Animator As Code v1 (hai-vr/av3-animator-as-code)](https://github.com/hai-vr/av3-animator-as-code) must be installed, or the editor script won't compile. Install it by adding Hai's VPM listing ([vcc://vpm/addRepo?url=https://hai-vr.github.io/vpm-listing/index.json](vcc://vpm/addRepo?url=https://hai-vr.github.io/vpm-listing/index.json)) to VCC/ALCOM, or follow the repo's install instructions.
+[Animator As Code v1 (hai-vr/av3-animator-as-code)](https://github.com/hai-vr/av3-animator-as-code) must be installed, or the editor script won't compile. Install it by adding Hai's VPM listing to VCC/ALCOM — see [docs.hai-vr.dev/docs/products/listing](https://docs.hai-vr.dev/docs/products/listing) for the add-repo link — then add the Animator As Code package to this project.
 
 ## Usage
 
