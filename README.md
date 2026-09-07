@@ -45,4 +45,4 @@ Generates the Animator layers a UdonCombatSystem gun needs (slide tracking, fire
 ## Notes
 
 - All assigned clips have looping **disabled** on generation — the tool edits the clip assets themselves.
-- Slide thresholds (ejection `0.35`, full rear `0.95`) are constants in [GunSlideAnimatorGeneratorEditor.cs](Editor/GunSlideAnimatorGeneratorEditor.cs); edit there if your physbone stretch range differs.
+
