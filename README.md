@@ -33,14 +33,16 @@ Generates the Animator layers a UdonCombatSystem gun needs (slide tracking, fire
 
 ## Animator parameters
 
-| Parameter | Type | Written by |
-|---|---|---|
-| `SlideStretch` | Float | Udon reading PhysBone stretch |
-| `SlideLocked` | Bool | Udon |
-| `SlideGrabbed` | Bool | Udon (`UCS_SliderHandler`) |
-| `IsFiring` | Trigger | Udon, per shot |
-| `IsFiringLock` | Bool | Udon (last round) |
-| `BulletVisible` | Bool | Udon |
+| Parameter | Type |
+|---|---|
+| `SlideStretch` | Float (PhysBone stretch) |
+| `SlideLocked` | Bool |
+| `SlideGrabbed` | Bool |
+| `IsFiring` | Trigger |
+| `IsFiringLock` | Bool |
+| `BulletVisible` | Bool |
+
+All written by Udon at runtime.
 
 ## Notes
 
